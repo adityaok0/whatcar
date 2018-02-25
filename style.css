@@ -5,6 +5,11 @@ html,body{
     height:100%;
     margin: 2px;
 }
+body{
+border:2px solid black;
+height:165vw;
+}
+
 .container{
     border:.1vw solid black;
     width:100%;
@@ -28,6 +33,10 @@ html,body{
 .col-10 {width:83.33%;}
 .col-11 {width:91.66%;}
 .col-12 {width:100%;}
+body{
+
+    height:150vw;
+    }
 }
 .row::after{
     content:"";
