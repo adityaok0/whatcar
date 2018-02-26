@@ -6,6 +6,10 @@ html,body{
 }
 body{
 border:2px solid black;
+<<<<<<< HEAD
+=======
+height:165vw;
+>>>>>>> 5ec4f7480defd0d644a9873df856a143ca35a2a9
 }
 
 .container{
@@ -31,11 +35,6 @@ border:2px solid black;
 .col-10 {width:83.33%;}
 .col-11 {width:91.66%;}
 .col-12 {width:100%;}
-body{
-
-    height:150vw;
-    }
-}
 .row::after{
     content:"";
     clear: both;
