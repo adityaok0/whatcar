@@ -2,12 +2,14 @@
     float: left;
 }
 html,body{
-    height:100%;
     margin: 2px;
 }
 body{
 border:2px solid black;
+<<<<<<< HEAD
+=======
 height:165vw;
+>>>>>>> 5ec4f7480defd0d644a9873df856a143ca35a2a9
 }
 
 .container{
@@ -64,7 +66,7 @@ body{
 .heading{
     color:red;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 30px;
     text-anchor: start;
     vertical-align: top;
     margin-top:0px;
@@ -72,8 +74,8 @@ body{
     border-width: 0px;
 }
 .content{
-    line-height:2vw;
-    font-size:1.2vw;
+    
+    font-size:20px;
 }
 #datsun{
     padding: 0px;
