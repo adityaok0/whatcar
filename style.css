@@ -2,9 +2,12 @@
     float: left;
 }
 html,body{
-    height:100%;
     margin: 2px;
 }
+body{
+border:2px solid black;
+}
+
 .container{
     border:.1vw solid black;
     width:100%;
@@ -28,6 +31,10 @@ html,body{
 .col-10 {width:83.33%;}
 .col-11 {width:91.66%;}
 .col-12 {width:100%;}
+body{
+
+    height:150vw;
+    }
 }
 .row::after{
     content:"";
@@ -55,7 +62,7 @@ html,body{
 .heading{
     color:red;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 30px;
     text-anchor: start;
     vertical-align: top;
     margin-top:0px;
@@ -63,8 +70,8 @@ html,body{
     border-width: 0px;
 }
 .content{
-    line-height:2vw;
-    font-size:1.2vw;
+    
+    font-size:20px;
 }
 #datsun{
     padding: 0px;
